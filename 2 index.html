@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Benita's Webpage</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h1 {
+                color: brown;
+                text-align:center;
+                background-color: beige;
+                padding: 20px;
+            }
+        </style>
+    </head>
+   <body>
+    <h1>This Is Benita's First Webpage</h1>
+
+     
+        <style>
+            .nav-contents{
+                display: flex;
+                gap: 100px;
+                margin-bottom: 15px;
+                color: beige;
+            }
+               *{ scroll-behavior: smooth;
+
+               }
+        </style>
+        <div class="nav-contents">
+     <a href="#webpage-contents">Webpage Contents</a>
+    <a href="#information-table">Information Table</a>
+    <a href="#contact-form">Contact Form</a>
+    </div>
+
+
+    <img src="https://th.bing.com/th/id/R.043f9ac4a9b6fcb023c2b86bc20f89a0?rik=eeedgvNCxid0Vg&pid=ImgRaw&r=0" alt="This is the picture of a cat" height="240"> 
+    <p>This is a picture of an orange shorthaired cat.</p>
+    <a href="https://www.techyjaunt.com/" target="_blank"> 
+        Visit Techy Jaunt
+    </a>
+
+   <div id="webpage-contents">
+    <h2>WebPage Contents</h2>
+    <ul>
+      <li>Introduction</li>  
+      <li>Table of information</li>
+      <li>Contact form</li>
+    </ul>
+    </div>
+
+    <div id="information-table">
+   <h2>Information Table</h2>
+   <table>
+    <table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+    <th>Item</th>
+    <th>Description</th>
+    <th>Quantity</th>
+    </tr>
+    <tr>
+        <td>Pens</td>
+        <td>Blue ink Pen</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Notebooks</td>
+        <td>Spiral-bound Notebooks</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Markers</td>
+        <td>Permanent Markers</td>
+        <td>2</td>
+    </tr>
+   </table>
+</div>
+
+ <div id="contact-form">
+       <h2>Contact Form</h2>
+       <form>
+        <label>Name</label>
+        <input type="text"/>
+        <br></br>
+
+       <label>Email</label>
+       <input type="email"/>
+       <br></br>
+
+       <label>Password</label>
+       <input type="password"/>
+       <br></br>
+
+       <label>Gender:</label>
+       <input type="radio" id="male" name="gender" value="male"/>
+       <label for="male">Male</label>
+       <input type="radio" id="female" name="gender" value="female"/>
+       <label for="female">Female</label>
+       <br></br>
+
+       <label>subscribe</label>
+       <input type="checkbox"/>
+       <br></br>
+
+       <label>Number of items</label>
+       <input type="number"/>
+       <br></br>
+
+       <label>Date</label>
+       <input type="date"/>
+       <br></br>
+
+      <label>Message:</label>
+      <textarea name="message" rows="6" cols="20" placeholder="type message"></textarea>
+      <br></br>
+
+      
+      <button type="button" onclick="alert(Button clicked!)">Submit</button>
+
+       </form>
+       </div>
+    </body> 
+   
+    
+</html>
